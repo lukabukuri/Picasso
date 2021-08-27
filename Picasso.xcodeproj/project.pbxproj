@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		AB36BD4726D9392300D6F2E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD4626D9392300D6F2E9 /* AppDelegate.swift */; };
 		AB36BD4926D9392300D6F2E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD4826D9392300D6F2E9 /* SceneDelegate.swift */; };
-		AB36BD4B26D9392300D6F2E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD4A26D9392300D6F2E9 /* ViewController.swift */; };
-		AB36BD4E26D9392300D6F2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB36BD4C26D9392300D6F2E9 /* Main.storyboard */; };
 		AB36BD5026D9392400D6F2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB36BD4F26D9392400D6F2E9 /* Assets.xcassets */; };
 		AB36BD5326D9392400D6F2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB36BD5126D9392400D6F2E9 /* LaunchScreen.storyboard */; };
+		AB36BD6326D93A2000D6F2E9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD5E26D93A2000D6F2E9 /* AppCoordinator.swift */; };
+		AB36BD6426D93A2000D6F2E9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD5F26D93A2000D6F2E9 /* BaseViewController.swift */; };
+		AB36BD6526D93A2000D6F2E9 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD6026D93A2000D6F2E9 /* Storyboarded.swift */; };
+		AB36BD6626D93A2000D6F2E9 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD6126D93A2000D6F2E9 /* CoordinatorProtocol.swift */; };
+		AB36BD6726D93A2000D6F2E9 /* CoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD6226D93A2000D6F2E9 /* CoordinatorDelegate.swift */; };
+		AB36BD6A26D93A5B00D6F2E9 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB36BD6926D93A5B00D6F2E9 /* HomeViewController.storyboard */; };
+		AB36BD6C26D93A6300D6F2E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD6B26D93A6300D6F2E9 /* HomeViewController.swift */; };
+		AB36BD6F26D93AE800D6F2E9 /* UICollectionViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD6E26D93AE800D6F2E9 /* UICollectionViewExtentions.swift */; };
+		AB36BD7226D93B3700D6F2E9 /* PaintViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB36BD7126D93B3700D6F2E9 /* PaintViewController.storyboard */; };
+		AB36BD7426D93B3C00D6F2E9 /* PaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD7326D93B3C00D6F2E9 /* PaintViewController.swift */; };
+		AB36BD7626D93B4900D6F2E9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD7526D93B4900D6F2E9 /* SettingsViewController.swift */; };
+		AB36BD7826D93B4E00D6F2E9 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD7726D93B4E00D6F2E9 /* Pencil.swift */; };
+		AB36BD7C26D93B6500D6F2E9 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD7A26D93B6500D6F2E9 /* GalleryCollectionViewCell.swift */; };
+		AB36BD7D26D93B6500D6F2E9 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB36BD7B26D93B6500D6F2E9 /* GalleryCollectionViewCell.xib */; };
+		AB36BD8126D93B7400D6F2E9 /* ImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB36BD7F26D93B7400D6F2E9 /* ImageViewController.storyboard */; };
+		AB36BD8226D93B7400D6F2E9 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36BD8026D93B7400D6F2E9 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB36BD4326D9392300D6F2E9 /* Picasso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picasso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB36BD4626D9392300D6F2E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB36BD4826D9392300D6F2E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB36BD4A26D9392300D6F2E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB36BD4D26D9392300D6F2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB36BD4F26D9392400D6F2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB36BD5226D9392400D6F2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB36BD5426D9392400D6F2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB36BD5E26D93A2000D6F2E9 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AB36BD5F26D93A2000D6F2E9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AB36BD6026D93A2000D6F2E9 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		AB36BD6126D93A2000D6F2E9 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		AB36BD6226D93A2000D6F2E9 /* CoordinatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorDelegate.swift; sourceTree = "<group>"; };
+		AB36BD6926D93A5B00D6F2E9 /* HomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		AB36BD6B26D93A6300D6F2E9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AB36BD6E26D93AE800D6F2E9 /* UICollectionViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtentions.swift; sourceTree = "<group>"; };
+		AB36BD7126D93B3700D6F2E9 /* PaintViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PaintViewController.storyboard; sourceTree = "<group>"; };
+		AB36BD7326D93B3C00D6F2E9 /* PaintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintViewController.swift; sourceTree = "<group>"; };
+		AB36BD7526D93B4900D6F2E9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AB36BD7726D93B4E00D6F2E9 /* Pencil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
+		AB36BD7A26D93B6500D6F2E9 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB36BD7B26D93B6500D6F2E9 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		AB36BD7F26D93B7400D6F2E9 /* ImageViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ImageViewController.storyboard; sourceTree = "<group>"; };
+		AB36BD8026D93B7400D6F2E9 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,101 @@
 		AB36BD4526D9392300D6F2E9 /* Picasso */ = {
 			isa = PBXGroup;
 			children = (
+				AB36BD7E26D93B7400D6F2E9 /* Image Page */,
+				AB36BD7026D93B2500D6F2E9 /* Paint */,
+				AB36BD6826D93A4D00D6F2E9 /* Home */,
+				AB36BD5D26D93A2000D6F2E9 /* Coordinator */,
+				AB36BD6D26D93ADC00D6F2E9 /* Extentions */,
+				AB36BD5B26D9398000D6F2E9 /* Resources */,
+				AB36BD5A26D9397400D6F2E9 /* App */,
+				AB36BD5C26D9399100D6F2E9 /* Supporting Files */,
+			);
+			path = Picasso;
+			sourceTree = "<group>";
+		};
+		AB36BD5A26D9397400D6F2E9 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				AB36BD4626D9392300D6F2E9 /* AppDelegate.swift */,
 				AB36BD4826D9392300D6F2E9 /* SceneDelegate.swift */,
-				AB36BD4A26D9392300D6F2E9 /* ViewController.swift */,
-				AB36BD4C26D9392300D6F2E9 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AB36BD5B26D9398000D6F2E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				AB36BD4F26D9392400D6F2E9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB36BD5C26D9399100D6F2E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				AB36BD5126D9392400D6F2E9 /* LaunchScreen.storyboard */,
 				AB36BD5426D9392400D6F2E9 /* Info.plist */,
 			);
-			path = Picasso;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB36BD5D26D93A2000D6F2E9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AB36BD5E26D93A2000D6F2E9 /* AppCoordinator.swift */,
+				AB36BD5F26D93A2000D6F2E9 /* BaseViewController.swift */,
+				AB36BD6026D93A2000D6F2E9 /* Storyboarded.swift */,
+				AB36BD6126D93A2000D6F2E9 /* CoordinatorProtocol.swift */,
+				AB36BD6226D93A2000D6F2E9 /* CoordinatorDelegate.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AB36BD6826D93A4D00D6F2E9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AB36BD7926D93B6500D6F2E9 /* CV Cell */,
+				AB36BD6926D93A5B00D6F2E9 /* HomeViewController.storyboard */,
+				AB36BD6B26D93A6300D6F2E9 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AB36BD6D26D93ADC00D6F2E9 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				AB36BD6E26D93AE800D6F2E9 /* UICollectionViewExtentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		AB36BD7026D93B2500D6F2E9 /* Paint */ = {
+			isa = PBXGroup;
+			children = (
+				AB36BD7726D93B4E00D6F2E9 /* Pencil.swift */,
+				AB36BD7526D93B4900D6F2E9 /* SettingsViewController.swift */,
+				AB36BD7326D93B3C00D6F2E9 /* PaintViewController.swift */,
+				AB36BD7126D93B3700D6F2E9 /* PaintViewController.storyboard */,
+			);
+			path = Paint;
+			sourceTree = "<group>";
+		};
+		AB36BD7926D93B6500D6F2E9 /* CV Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AB36BD7A26D93B6500D6F2E9 /* GalleryCollectionViewCell.swift */,
+				AB36BD7B26D93B6500D6F2E9 /* GalleryCollectionViewCell.xib */,
+			);
+			path = "CV Cell";
+			sourceTree = "<group>";
+		};
+		AB36BD7E26D93B7400D6F2E9 /* Image Page */ = {
+			isa = PBXGroup;
+			children = (
+				AB36BD7F26D93B7400D6F2E9 /* ImageViewController.storyboard */,
+				AB36BD8026D93B7400D6F2E9 /* ImageViewController.swift */,
+			);
+			path = "Image Page";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB36BD7226D93B3700D6F2E9 /* PaintViewController.storyboard in Resources */,
 				AB36BD5326D9392400D6F2E9 /* LaunchScreen.storyboard in Resources */,
 				AB36BD5026D9392400D6F2E9 /* Assets.xcassets in Resources */,
-				AB36BD4E26D9392300D6F2E9 /* Main.storyboard in Resources */,
+				AB36BD7D26D93B6500D6F2E9 /* GalleryCollectionViewCell.xib in Resources */,
+				AB36BD6A26D93A5B00D6F2E9 /* HomeViewController.storyboard in Resources */,
+				AB36BD8126D93B7400D6F2E9 /* ImageViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +254,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB36BD4B26D9392300D6F2E9 /* ViewController.swift in Sources */,
+				AB36BD6326D93A2000D6F2E9 /* AppCoordinator.swift in Sources */,
+				AB36BD6426D93A2000D6F2E9 /* BaseViewController.swift in Sources */,
+				AB36BD7826D93B4E00D6F2E9 /* Pencil.swift in Sources */,
+				AB36BD7626D93B4900D6F2E9 /* SettingsViewController.swift in Sources */,
+				AB36BD6726D93A2000D6F2E9 /* CoordinatorDelegate.swift in Sources */,
+				AB36BD6C26D93A6300D6F2E9 /* HomeViewController.swift in Sources */,
+				AB36BD6626D93A2000D6F2E9 /* CoordinatorProtocol.swift in Sources */,
+				AB36BD6F26D93AE800D6F2E9 /* UICollectionViewExtentions.swift in Sources */,
+				AB36BD6526D93A2000D6F2E9 /* Storyboarded.swift in Sources */,
 				AB36BD4726D9392300D6F2E9 /* AppDelegate.swift in Sources */,
+				AB36BD8226D93B7400D6F2E9 /* ImageViewController.swift in Sources */,
 				AB36BD4926D9392300D6F2E9 /* SceneDelegate.swift in Sources */,
+				AB36BD7C26D93B6500D6F2E9 /* GalleryCollectionViewCell.swift in Sources */,
+				AB36BD7426D93B3C00D6F2E9 /* PaintViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB36BD4C26D9392300D6F2E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB36BD4D26D9392300D6F2E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB36BD5126D9392400D6F2E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +408,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QU8N8ZAQ8;
-				INFOPLIST_FILE = Picasso/Info.plist;
+				INFOPLIST_FILE = "Picasso/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QU8N8ZAQ8;
-				INFOPLIST_FILE = Picasso/Info.plist;
+				INFOPLIST_FILE = "Picasso/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
